@@ -50,3 +50,14 @@
 .animate-fadeInUp {
   animation: fadeInUp 1s ease-out forwards;
 }
+
+/* Swiper Slider */
+/* Styles the active pagination dot */
+.swiper-pagination-bullet-active {
+  background-color: #00b8db !important;
+}
+
+/* Styles the inactive dots */
+.swiper-pagination-bullet {
+  background-color: #a0aec0;
+}
