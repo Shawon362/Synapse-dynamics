@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FiArrowRight } from 'react-icons/fi';
 import shiningQualities from "/src/assets/images/shiningQualities.png";
