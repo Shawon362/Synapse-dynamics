@@ -1,7 +1,10 @@
+
+import sponsorOne from "/src/assets/images/chatbits.svg";
+
 const TrustedBy = () => {
     // 1. Define your sponsor logos in an array
     const sponsors = [
-        { id: 1, name: 'Sponsor 1', logoUrl: '/src/assets/images/chatbits.svg' },
+        { id: 1, name: 'Sponsor 1', logoUrl: sponsorOne },
         { id: 2, name: 'Sponsor 2', logoUrl: '/src/assets/images/flexyfit-logo.svg' },
         { id: 3, name: 'Sponsor 3', logoUrl: '/src/assets/images/hirxpert.svg' },
         { id: 4, name: 'Sponsor 4', logoUrl: '/src/assets/images/shining-qualities.svg' },
