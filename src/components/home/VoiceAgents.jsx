@@ -39,7 +39,7 @@ const VoiceAgents = () => {
                     <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900">
                         Ready to use Voice AI Agents
                     </h2>
-                    <p className="mt-4 text-base sm:text-lg text-gray-600">
+                    <p className="mt-4 text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
                         Explore our ready-to-use Voice AI Agents that can be deployed immediately for various business needs.
                     </p>
                 </div>
@@ -60,7 +60,7 @@ const VoiceAgents = () => {
 
                             {/* Text Column */}
                             <div className="animate-fadeInUp">
-                                <div className="flex flex-col items-start sm:items-center gap-3 mb-4">
+                                <div className="flex flex-col items-start sm:flex-row sm:items-center gap-3 mb-4">
                                     <span className="text-3xl text-[#00b8db]">{agent.icon}</span>
                                     <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
                                         {agent.title}

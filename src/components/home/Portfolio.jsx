@@ -38,7 +38,7 @@ const Portfolio = () => {
                     <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900">
                         Portfolio of Innovation
                     </h2>
-                    <p className="mt-4 text-base sm:text-lg text-gray-600">
+                    <p className="mt-4 text-base sm:text-lg text-gray-600 max-w-2xl">
                         Discover how we've helped companies achieve their goals through our expertise.
                     </p>
                 </div>

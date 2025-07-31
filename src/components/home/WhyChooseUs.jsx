@@ -48,7 +48,7 @@ const WhyChooseUs = () => {
                     <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900">
                         Why Choose Us?
                     </h2>
-                    <p className="mt-4 text-base sm:text-lg text-gray-600">
+                    <p className="mt-4 text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
                         Your Partner for Innovation and Growth in SaaS Software Development.
                     </p>
                 </div>
