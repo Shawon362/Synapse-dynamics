@@ -34,11 +34,11 @@ const Portfolio = () => {
         <section className="bg-white py-16 lg:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
-                <div className="max-w-3xl mb-12">
-                    <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
+                <div className="max-w-3xl mb-8 sm:mb-12">
+                    <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900">
                         Portfolio of Innovation
                     </h2>
-                    <p className="mt-4 text-lg text-gray-600">
+                    <p className="mt-4 text-base sm:text-lg text-gray-600">
                         Discover how we've helped companies achieve their goals through our expertise.
                     </p>
                 </div>
@@ -59,10 +59,10 @@ const Portfolio = () => {
 
                             <div className="absolute inset-0 p-6 flex flex-col justify-end">
                                 <div>
-                                    <h3 className="text-2xl font-bold text-white mb-2">
+                                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
                                         {item.title}
                                     </h3>
-                                    <p className="text-gray-200 mb-4">
+                                    <p className="text-gray-200 text-base sm:text-lg mb-4">
                                         {item.description}
                                     </p>
                                     <NavLink to={item.link}>

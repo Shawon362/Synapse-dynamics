@@ -40,8 +40,8 @@ const Blogs = () => {
         <section className="bg-gray-50 py-16 lg:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
-                <div className="flex justify-between items-center mb-12">
-                    <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
+                <div className="flex justify-between items-center mb-8 sm:mb-12">
+                    <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900">
                         Latest Insights
                     </h2>
                     <NavLink to="/blog" className="group hidden sm:inline-flex items-center gap-2 font-semibold text-gray-700 hover:text-[#00b8db] transition-colors">
@@ -60,7 +60,7 @@ const Blogs = () => {
                             <span className="inline-block bg-cyan-100 text-cyan-700 text-xs font-semibold px-3 py-1 rounded-full mb-3">
                                 {featuredPost.category}
                             </span>
-                            <h3 className="text-3xl font-bold text-gray-900 mb-3 group-hover:text-[#00b8db] transition-colors">
+                            <h3 className="text-xl sm:text-3xl font-bold text-gray-900 mb-3 group-hover:text-[#00b8db] transition-colors">
                                 {featuredPost.title}
                             </h3>
                             <p className="text-gray-600 mb-4">{featuredPost.excerpt}</p>

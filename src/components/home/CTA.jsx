@@ -18,12 +18,12 @@ const CTA = () => {
 
                     <div className="relative z-10 text-center px-6 py-16 md:py-20">
                         {/* Title */}
-                        <h2 className="text-4xl lg:text-5xl font-bold text-white">
+                        <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-white">
                             Ready to Transform Your Business?
                         </h2>
 
                         {/* Subtitle */}
-                        <p className="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
+                        <p className="mt-4 text-base sm:text-lg text-gray-300 max-w-2xl mx-auto">
                             Let's build something amazing together. Reach out to our team today and discover how our expertise can power your next big innovation.
                         </p>
 

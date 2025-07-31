@@ -45,16 +45,16 @@ const WhyChooseUs = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center max-w-3xl mx-auto">
-                    <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
+                    <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900">
                         Why Choose Us?
                     </h2>
-                    <p className="mt-4 text-lg text-gray-600">
+                    <p className="mt-4 text-base sm:text-lg text-gray-600">
                         Your Partner for Innovation and Growth in SaaS Software Development.
                     </p>
                 </div>
 
                 {/* Animated Stats Grid */}
-                <div ref={ref} className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
+                <div ref={ref} className="mt-8 sm:mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
                     {stats.map((stat, index) => (
                         <div key={index} className="bg-white p-6 rounded-xl shadow-md">
                             <h3 className="text-4xl font-bold text-[#00b8db]">
@@ -67,7 +67,7 @@ const WhyChooseUs = () => {
                 </div>
 
                 {/* Features Grid */}
-                <div className="mt-20 grid md:grid-cols-2 gap-8">
+                <div className="mt-10 sm:mt-20 grid md:grid-cols-2 gap-8">
                     {features.map((feature, index) => (
                         <div key={index} className="flex items-start space-x-4">
                             <div className="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-cyan-100 text-[#00b8db] text-2xl">

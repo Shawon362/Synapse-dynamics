@@ -1,4 +1,3 @@
-import React from 'react';
 // Importing icons from the react-icons library
 import { LuBrainCircuit } from "react-icons/lu";
 import { GoWorkflow } from "react-icons/go";
