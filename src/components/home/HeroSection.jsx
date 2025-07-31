@@ -1,10 +1,10 @@
-import React from 'react';
 import { TbShieldCheckFilled } from 'react-icons/tb';
-import CommonButton from '../ui/CommonButton';
+import heroImageFirst from "/src/assets/images/heroImage01.png";
+import heroImageSecond from "/src/assets/images/heroImage02.png";
 
 const HeroSection = () => {
     return (
-        <section className="relative bg-gray-50 py-16 lg:py-24 overflow-hidden">
+        <section className="relative py-16 lg:py-24 overflow-hidden">
             {/* Background Decorative Elements */}
             <div className="absolute inset-0">
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-cyan-100 rounded-full opacity-20 blur-3xl"></div>
@@ -22,10 +22,10 @@ const HeroSection = () => {
                         <div className="inline-block bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-medium mb-6 shadow-sm">
                             AI AUTOMATION
                         </div>
-                        <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
+                        <h1 className="text-3xl sm:text-5xl font-bold text-gray-900 leading-tight mb-6">
                             AI-Powered <span className='text-[#00b8db]'>Automation</span> for Modern Businesses
                         </h1>
-                        <p className="text-lg lg:text-xl text-gray-600 mb-8 leading-relaxed">
+                        <p className="text-base sm:text-lg text-gray-600 mb-8 leading-relaxed">
                             Driving Innovation Through Smart, Scalable AI Automation Solutions for Visionary SaaS and SMBs.
                         </p>
                         <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
@@ -58,16 +58,16 @@ const HeroSection = () => {
                     <div className="relative h-96 lg:h-[500px] flex items-center justify-center">
                         <div>
                              {/* Image 1 */}
-                        <div className="absolute top-0 right-0 w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500" alt="Team collaboration" className="w-full h-full object-cover" />
+                        <div className="absolute top-0 left-0 lg:right-0 lg:left-auto w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
+                            <img src={heroImageFirst} alt="Team collaboration" className="w-full h-full object-cover" />
                         </div>
                         {/* Image 2 (Position Fixed) */}
-                        <div className="absolute bottom-8 right-32 sm:right-40 w-48 h-48 lg:w-56 lg:h-56 rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" alt="Advanced robotics" className="w-full h-full object-cover" />
+                        <div className="absolute bottom-8 left-32 lg:right-40 lg:left-auto w-48 h-48 lg:w-56 lg:h-56 rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
+                            <img src={heroImageSecond} alt="Advanced robotics" className="w-full h-full object-cover" />
                         </div>
                         </div>
                         {/* SVG Waves */}
-                        <div className="absolute bottom-16 right-0 sm:right-16 w-24 h-16 opacity-40">
+                        <div className="absolute bottom-16 right-0 left-0 lg:right-16 lg:left-auto w-24 h-16 opacity-40">
                             <svg viewBox="0 0 100 40" className="w-full h-full text-gray-400 animate-pulse">
                                 <path d="M0 20 Q25 10 50 20 T100 20" stroke="currentColor" strokeWidth="2" fill="none"></path>
                                 <path d="M0 25 Q25 15 50 25 T100 25" stroke="currentColor" strokeWidth="1.5" fill="none"></path>

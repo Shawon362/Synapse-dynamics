@@ -6,8 +6,8 @@ import { Routes, Route, Outlet } from 'react-router-dom';
 // import PortfolioPage from './pages/PortfolioPage';
 // import InsightsPage from './pages/InsightsPage';
 import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
 import Home from './pages/Home';
+import Footer from './components/layout/Footer';
 
 // Create a Layout component to hold the Header and Footer
 // The <Outlet /> component will render the current page

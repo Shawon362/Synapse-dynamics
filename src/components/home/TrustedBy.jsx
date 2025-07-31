@@ -12,12 +12,12 @@ const TrustedBy = () => {
     const duplicatedSponsors = [...sponsors, ...sponsors];
 
     return (
-        <section className="py-16 bg-white sm:py-20">
+        <section className="bg-gray-50 py-16 sm:py-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-10">
-                    <p className="text-2xl text-gray-600 font-medium">
+                    <h3 className="text-2xl sm:text-3xl text-gray-600 font-bold">
                         Trusted by industry leaders worldwide
-                    </p>
+                    </h3>
                 </div>
 
                 {/* Slider Container with Fade Effect */}
