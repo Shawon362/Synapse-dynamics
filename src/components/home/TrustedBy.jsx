@@ -1,14 +1,17 @@
 
 import sponsorOne from "/src/assets/images/chatbits.svg";
+import sponsorTwo from "/src/assets/images/flexyfit-logo.svg";
+import sponsorThree from "/src/assets/images/hirxpert.svg";
+import sponsorFour from "/src/assets/images/shining-qualities.svg"
+import sponsorFive from "/src/assets/images/webworks.svg";
 
 const TrustedBy = () => {
-    // 1. Define your sponsor logos in an array
     const sponsors = [
         { id: 1, name: 'Sponsor 1', logoUrl: sponsorOne },
-        { id: 2, name: 'Sponsor 2', logoUrl: '/src/assets/images/flexyfit-logo.svg' },
-        { id: 3, name: 'Sponsor 3', logoUrl: '/src/assets/images/hirxpert.svg' },
-        { id: 4, name: 'Sponsor 4', logoUrl: '/src/assets/images/shining-qualities.svg' },
-        { id: 5, name: 'Sponsor 5', logoUrl: '/src/assets/images/webworks.svg' }
+        { id: 2, name: 'Sponsor 2', logoUrl: sponsorTwo },
+        { id: 3, name: 'Sponsor 3', logoUrl: sponsorThree },
+        { id: 4, name: 'Sponsor 4', logoUrl: sponsorFour },
+        { id: 5, name: 'Sponsor 5', logoUrl: sponsorFive }
     ];
 
     // 2. Duplicate the sponsors array for a seamless loop effect
@@ -26,7 +29,6 @@ const TrustedBy = () => {
                 {/* Slider Container with Fade Effect */}
                 <div
                     className="relative w-full overflow-hidden"
-                    // This creates the fade-out effect on the left and right edges
                     style={{
                         maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)'
                     }}
