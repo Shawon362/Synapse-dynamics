@@ -42,8 +42,6 @@ const Header = () => {
     return (
       <>
         <NavLink to="/work" className={linkClass} onClick={handleMobileLinkClick}>Our Work</NavLink>
-        
-        {/* FIX #2: Desktop Services Dropdown Wrapper. The onMouseEnter/Leave events are on this parent div. */}
         <div
           className="relative"
           onMouseEnter={() => !isMobile && setDesktopServicesOpen(true)}
@@ -58,7 +56,6 @@ const Header = () => {
           </button>
           
           {isDesktopServicesOpen && !isMobile && (
-             // The pt-4 on this div creates a "safe zone" so the mouse doesn't leave the parent when moving to the dropdown.
             <div className="absolute top-full left-1/2 -translate-x-1/2 w-64 bg-transparent pt-4">
                  <div className="bg-white rounded-lg shadow-xl p-2">
                     <ul className="space-y-1">
