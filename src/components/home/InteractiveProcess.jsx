@@ -122,7 +122,7 @@ const InteractiveProcess = () => {
                             <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2 sm:mb-3 leading-tight">
                                 {processData[activeIndex].title}
                             </h3>
-                            <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
+                            <p className="text-base text-gray-600 leading-relaxed mb-4 sm:mb-6">
                                 {processData[activeIndex].description}
                             </p>
                             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">

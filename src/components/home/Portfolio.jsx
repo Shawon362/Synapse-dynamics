@@ -61,7 +61,7 @@ const Portfolio = () => {
                                     <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
                                         {item.title}
                                     </h3>
-                                    <p className="text-gray-200 text-base sm:text-lg mb-4">
+                                    <p className="text-gray-200 text-base mb-4">
                                         {item.description}
                                     </p>
                                     <NavLink to={item.link}>

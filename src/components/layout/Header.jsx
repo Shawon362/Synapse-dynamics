@@ -54,7 +54,7 @@ const Header = () => {
             className="w-full flex justify-between items-center py-2 px-4 text-gray-700 font-semibold hover:text-[#00b8db] hover:bg-gray-100 rounded-md"
           >
             Services
-            <FiChevronDown className={`ml-1 transition-transform duration-300 mt-1 ${isMobile && isMobileServicesOpen ? 'rotate-180' : ''}`} />
+            <FiChevronDown className={`ml-1 transition-transform duration-300 mt-0 ${isMobile && isMobileServicesOpen ? 'rotate-180' : ''}`} />
           </button>
           
           {isDesktopServicesOpen && !isMobile && (

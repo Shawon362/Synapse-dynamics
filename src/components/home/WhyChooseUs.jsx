@@ -75,7 +75,7 @@ const WhyChooseUs = () => {
                             </div>
                             <div>
                                 <h4 className="text-xl font-semibold text-gray-900">{feature.title}</h4>
-                                <p className="mt-1 text-gray-600">{feature.description}</p>
+                                <p className="mt-1 text-gray-600 text-base">{feature.description}</p>
                             </div>
                         </div>
                     ))}

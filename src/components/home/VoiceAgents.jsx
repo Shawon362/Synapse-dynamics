@@ -66,7 +66,7 @@ const VoiceAgents = () => {
                                         {agent.title}
                                     </h3>
                                 </div>
-                                <p className="text-base sm:text-lg text-gray-600 mb-6 leading-relaxed">
+                                <p className="text-base text-gray-600 mb-6 leading-relaxed">
                                     {agent.description}
                                 </p>
                                 <NavLink 
