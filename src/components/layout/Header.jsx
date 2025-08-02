@@ -101,7 +101,7 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <NavLink to="/quote">
+            <NavLink to="/contact">
               <CommonButton className="hidden sm:block">
                 Get Free Quote
               </CommonButton>
@@ -131,7 +131,7 @@ const Header = () => {
             </div>
             <nav className="flex flex-col p-4">
               <NavLinks isMobile={true} />
-              <NavLink to="/quote" className="w-full mt-4" onClick={closeMobileMenu}>
+              <NavLink to="/contact" className="w-full mt-4" onClick={closeMobileMenu}>
                 <CommonButton className="w-full">
                   Get Free Quote
                 </CommonButton>

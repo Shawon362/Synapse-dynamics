@@ -9,6 +9,7 @@ import VoiceAiDevelopmentPage from './pages/VoiceAiDevelopment';
 import ShopifyAiAutomationPage from './pages/ShopifyAiAutomation';
 import ChatBotDevelopmentPage from './pages/ChatBotDevelopment';
 import GenerativeAiPage from './pages/GenerativeAi';
+import Contact from './pages/Contact';
 
 // Create a Layout component to hold the Header and Footer
 const Layout = () => {
@@ -39,6 +40,7 @@ export default function App() {
         <Route path="services/shopify-ai-automation" element={<ShopifyAiAutomationPage />} />
         <Route path="services/chatbot-development" element={<ChatBotDevelopmentPage />} />
         <Route path="services/generative-ai" element={<GenerativeAiPage />} />
+        <Route path="contact" element={<Contact />} />
 
         {/* Optional: Add a 404 Not Found page */}
         <Route path="*" element={<div>Page Not Found</div>} />
