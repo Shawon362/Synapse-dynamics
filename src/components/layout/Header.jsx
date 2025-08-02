@@ -15,10 +15,10 @@ const Header = () => {
   const services = [
     { name: 'AI Automation', path: '/services/ai-automation' },
     { name: 'n8n Workflow', path: '/services/n8n-workflow' },
-    { name: 'AI Agent Development', path: '/services/ai-agent' },
-    { name: 'Voice AI Development', path: '/services/voice-ai' },
-    { name: 'Shopify AI Automation', path: '/services/shopify-ai' },
-    { name: 'ChatBot Development', path: '/services/chatbot' },
+    { name: 'AI Agent Development', path: '/services/ai-agent-development' },
+    { name: 'Voice AI Development', path: '/services/voice-ai-development' },
+    { name: 'Shopify AI Automation', path: '/services/shopify-ai-automation' },
+    { name: 'ChatBot Development', path: '/services/chatbot-development' },
     { name: 'Generative AI', path: '/services/generative-ai' },
   ];
 
@@ -31,12 +31,12 @@ const Header = () => {
 
     const linkClass = ({ isActive }) =>
       `block py-2 px-4 rounded-md transition-colors font-semibold ${
-        isActive ? 'text-blue-600 bg-blue-50' : 'text-gray-700'
+        isActive ? 'text-[#00b8db] bg-blue-50' : 'text-gray-700'
       } hover:text-[#00b8db] hover:bg-gray-100`;
 
     const serviceLinkClass = ({ isActive }) =>
       `block w-full text-left px-4 py-2 font-semibold text-sm rounded-md transition-colors ${
-        isActive ? 'bg-blue-50 text-blue-700 font-bold' : 'text-gray-600'
+        isActive ? 'bg-blue-50 text-[#00b8db] font-bold' : 'text-gray-600'
       } hover:bg-gray-100 hover:text-[#00b8db]`;
 
     return (

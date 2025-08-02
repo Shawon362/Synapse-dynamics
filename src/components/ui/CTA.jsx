@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import CommonButton from '../ui/CommonButton';
+import CommonButton from './CommonButton';
 
 
 const CTA = () => {

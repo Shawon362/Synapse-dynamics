@@ -28,7 +28,7 @@ import FAQ from '../components/ui/FAQ';
 import CTA from '../components/ui/CTA';
 import { FiRefreshCw } from 'react-icons/fi';
 
-const AiAutomationPage = () => {
+const N8nWorkflowPage = () => {
     // Top Rated Company Data
      const topRatedData = {
         title: "Top Rated AI Automation Company in Bangladesh",
@@ -262,4 +262,4 @@ const AiAutomationPage = () => {
   );
 };
 
-export default AiAutomationPage;
+export default N8nWorkflowPage;

@@ -10,6 +10,10 @@ body{
 .container {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
+/* Testimonials Slider */
+.testimonial-slider .swiper{
+   padding-bottom: 30px;
+}
 /* 1. Define the Keyframe Animations */
 @keyframes float {
   0%, 100% {
