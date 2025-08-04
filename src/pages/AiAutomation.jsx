@@ -27,6 +27,7 @@ import Testimonials from '../components/ui/Testimonials';
 import FAQ from '../components/ui/FAQ';
 import CTA from '../components/ui/CTA';
 import { FiRefreshCw } from 'react-icons/fi';
+import ProductShowcase from '../components/ui/ProductShowcase';
 
 const AiAutomationPage = () => {
     // Top Rated Company Data
@@ -73,6 +74,52 @@ const AiAutomationPage = () => {
             title: "AI-Powered Business Intelligence",
             description: "Turn raw data into insights using AI models. We build dashboards and tools that provide automated analysis and reports using natural language processing."
         },
+    ];
+
+    // 2. Create the data for your products 📦
+    const productsData = [
+        {
+            name: "AI Chatbot Starter Kit",
+            priceId: "pro_01k1t651awc4jzryesdggwc7k6",
+            description: "A ready-to-deploy AI chatbot...",
+            price: 499,
+            term: "one-time",
+            features: [
+                "Handles up to 1,000 conversations/month",
+                "Trained on your custom data (up to 50 pages)",
+                "Integration with your website",
+                "Basic analytics dashboard",
+                "Standard email support"
+            ]
+        },
+        {
+            name: "Workflow Automation Pro",
+            priceId: "pro_01k1t614wjt979r5jxzzwhhbed",
+            description: "Automate a core business process...",
+            price: 999,
+            term: "one-time",
+            features: [
+                "Automate one end-to-end workflow",
+                "Integration with up to 3 business apps (e.g., CRM, Slack)",
+                "Custom logic and data parsing",
+                "Full documentation and handover session",
+                "Priority email support"
+            ]
+        },
+        {
+            name: "AI Agent Enterprise",
+            priceId: "pro_01k1t5v8d3p9egf7s2se5je3c7",
+            description: "A fully custom, intelligent AI agent...",
+            price: 2499,
+            term: "per month",
+            features: [
+                "Handles unlimited conversations & tasks",
+                "Advanced integrations (APIs, Databases, CRMs)",
+                "Proactive decision-making capabilities",
+                "Monthly performance tuning and reports",
+                "Dedicated account manager & support"
+            ]
+        }
     ];
 
     //Benefits Data
@@ -235,6 +282,11 @@ const AiAutomationPage = () => {
         title="Our AI Automation Services"
         subtitle="Explore the specific AI-powered solutions we offer to transform your business operations."
         services={aiServicesData}
+        />
+         <ProductShowcase
+            title="Our Packaged Solutions"
+            subtitle="Get started quickly with our ready-to-go AI products, designed for maximum impact with minimal setup."
+            products={productsData}
         />
         <Benefits
         title={whyChooseUs.title}

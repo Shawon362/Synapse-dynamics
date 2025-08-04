@@ -1,6 +1,7 @@
 import { TbShieldCheckFilled } from 'react-icons/tb';
 import heroImageFirst from "/src/assets/images/heroImage01.png";
 import heroImageSecond from "/src/assets/images/heroImage02.png";
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
     return (
@@ -30,9 +31,9 @@ const HeroSection = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
                             {/* Primary Button */}
-                            <button className="w-full sm:w-auto bg-[#00b8db] text-white px-6 py-3 rounded-lg font-medium transition duration-200 shadow-md hover:shadow-lg hover:bg-opacity-90">
-                                Explore Solutions
-                            </button>
+                            <Link to="/contact" className="w-full sm:w-auto bg-[#00b8db] text-white px-6 py-3 rounded-lg font-medium transition duration-200 shadow-md hover:shadow-lg hover:bg-opacity-90">
+                                Get Free Consultation
+                            </Link>
                             {/* Secondary Button */}
                             <button className="w-full sm:w-auto bg-transparent border border-[#00b8db] text-[#00b8db] hover:bg-[#00b8db] hover:text-white px-6 py-3 rounded-lg font-medium transition duration-200">
                                 Watch Demo
