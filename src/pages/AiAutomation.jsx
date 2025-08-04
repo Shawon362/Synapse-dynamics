@@ -80,7 +80,7 @@ const AiAutomationPage = () => {
     const productsData = [
         {
             name: "AI Chatbot Starter Kit",
-            priceId: "pro_01k1t651awc4jzryesdggwc7k6",
+            priceId: "pri_01k1tb5k1fpp15575nws5ymdx5",
             description: "A ready-to-deploy AI chatbot...",
             price: 499,
             term: "one-time",
@@ -94,7 +94,7 @@ const AiAutomationPage = () => {
         },
         {
             name: "Workflow Automation Pro",
-            priceId: "pro_01k1t614wjt979r5jxzzwhhbed",
+            priceId: "pri_01k1tb38yzvdr8t5zw6x5qt2xy",
             description: "Automate a core business process...",
             price: 999,
             term: "one-time",
@@ -108,7 +108,7 @@ const AiAutomationPage = () => {
         },
         {
             name: "AI Agent Enterprise",
-            priceId: "pro_01k1t5v8d3p9egf7s2se5je3c7",
+            priceId: "pri_01k1tb137yb870fnjkktf5azhk",
             description: "A fully custom, intelligent AI agent...",
             price: 2499,
             term: "per month",
