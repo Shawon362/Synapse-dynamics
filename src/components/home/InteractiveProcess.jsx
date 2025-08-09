@@ -145,7 +145,7 @@ const InteractiveProcess = () => {
                 {/* Bottom CTA */}
                 <div className="text-center mt-8 sm:mt-16">
                     <Link
-                        to="#" 
+                        to="/templates" 
                         className="group inline-flex items-center gap-2 font-semibold text-gray-700 hover:text-[#00b8db] transition-colors text-sm sm:text-base"
                     >
                         Browse All Templates

@@ -13,26 +13,26 @@ const VoiceAgents = () => {
             title: "Event Attendee Confirmation",
             description: "Voice AI confirms attendance, collects preferences, and logs details by calling event guests automatically.",
             imageUrl: eventImage,
-            link: "/agents/event-confirmation"
+            link: "/services/voice-ai-development"
         },
         {
             icon: <IoRestaurantOutline />,
             title: "Restaurant Table Reservation",
             description: "Voice AI handles table bookings by answering calls, checking availability, and confirming reservations instantly.",
             imageUrl: restaurantReservation,
-            link: "/agents/restaurant-reservation"
+            link: "/services/voice-ai-development"
         },
         {
             icon: <BsChatQuote />,
             title: "Personal Appointment Booking",
             description: "Automate appointment scheduling with Voice AI that books, reschedules, and manages slots over phone calls.",
             imageUrl: appointmentBooking,
-            link: "/agents/appointment-booking"
+            link: "/services/voice-ai-development"
         }
     ];
 
     return (
-        <section className="bg-gray-50 py-16 lg:py-24">
+        <section className="py-16 lg:py-24">
             <div className="container">
                 {/* Section Header */}
                 <div className="text-center max-w-3xl mx-auto mb-16">

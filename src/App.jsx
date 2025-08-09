@@ -11,6 +11,8 @@ import ChatBotDevelopmentPage from './pages/ChatBotDevelopment';
 import GenerativeAiPage from './pages/GenerativeAi';
 import Contact from './pages/Contact';
 import NotFoundPage from './components/ui/NotFound';
+import About from './pages/About';
+import Templates from './pages/Templates';
 
 // Create a Layout component to hold the Header and Footer
 const Layout = () => {
@@ -42,6 +44,8 @@ export default function App() {
         <Route path="services/chatbot-development" element={<ChatBotDevelopmentPage />} />
         <Route path="services/generative-ai" element={<GenerativeAiPage />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="about" element={<About />} />
+        <Route path="templates" element={<Templates />} />
 
         {/* Optional: Add a 404 Not Found page */}
         <Route path="*" element={<NotFoundPage/>} />
