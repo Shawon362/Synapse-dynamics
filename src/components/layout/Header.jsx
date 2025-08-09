@@ -41,7 +41,7 @@ const Header = () => {
 
     return (
       <>
-        <NavLink to="/work" className={linkClass} onClick={handleMobileLinkClick}>Our Work</NavLink>
+        <NavLink to="/" className={linkClass} onClick={handleMobileLinkClick}>Home</NavLink>
         <div
           className="relative"
           onMouseEnter={() => !isMobile && setDesktopServicesOpen(true)}
@@ -82,8 +82,8 @@ const Header = () => {
           )}
         </div>
         
-        <NavLink to="/company" className={linkClass} onClick={handleMobileLinkClick}>Company</NavLink>
-        <NavLink to="/blog" className={linkClass} onClick={handleMobileLinkClick}>Blog</NavLink>
+        <NavLink to="/about" className={linkClass} onClick={handleMobileLinkClick}>About</NavLink>
+        <NavLink to="/contact" className={linkClass} onClick={handleMobileLinkClick}>Contact</NavLink>
       </>
     );
   };
