@@ -118,7 +118,7 @@ const Templates = () => {
       <section className="bg-gray-50 py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="h-1.5 w-20 bg-cyan-500 mb-4 rounded mx-auto"></div>
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 tracking-tight">
+          <h1 className="text-3xl sm:text-5xl font-bold text-gray-900 tracking-tight">
             Ready to use Automation Templates
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-600">

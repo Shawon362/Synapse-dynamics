@@ -44,10 +44,6 @@ const Blogs = () => {
                     <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900">
                         Latest Insights
                     </h2>
-                    <NavLink to="/blog" className="group hidden sm:inline-flex items-center gap-2 font-semibold text-gray-700 hover:text-[#00b8db] transition-colors">
-                        View All Articles
-                        <FiArrowRight className="transition-transform group-hover:translate-x-1" />
-                    </NavLink>
                 </div>
 
                 {/* Featured Post */}

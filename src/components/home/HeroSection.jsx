@@ -35,9 +35,9 @@ const HeroSection = () => {
                                 Get Free Consultation
                             </Link>
                             {/* Secondary Button */}
-                            <button className="w-full sm:w-auto bg-transparent border border-[#00b8db] text-[#00b8db] hover:bg-[#00b8db] hover:text-white px-6 py-3 rounded-lg font-medium transition duration-200">
+                            <Link to="/templates" className="w-full sm:w-auto bg-transparent border border-[#00b8db] text-[#00b8db] hover:bg-[#00b8db] hover:text-white px-6 py-3 rounded-lg font-medium transition duration-200">
                                 Watch Demo
-                            </button>
+                            </Link>
                         </div>
                          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2">
                             <div className="flex items-center text-gray-600">
